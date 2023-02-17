@@ -1,1 +1,289 @@
 
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: aliceblue;
+}
+
+
+/* Header Banner */
+#bannerimage {
+    display: flex;
+    margin: 40px;
+    width: auto;
+    background-image: url(https://images.hdqwalls.com/download/grand-canyon-national-park-2560x1440.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow:2px 5px 10px gray;
+    justify-content: center;
+    align-items: center;
+}
+#bannertext {
+    font-family: 'Rye', cursive;
+    font-size: 75px;
+    color: white;
+    opacity: 85%;
+}
+
+/* Navigation Bar*/
+button {
+    display: inline;
+    margin: 40px;
+    width: auto;
+    height: 60px;
+    background-color: #2b5242;
+    border-radius: 15px;
+    box-shadow: 8px 10px 10px #2b5242;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+button:active {
+    font-size: larger;
+    transition: 0.1s;
+}
+nav {
+    display: flex;
+    margin: 40px;
+    width: auto;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    padding: 40px;
+}
+
+
+nav li a {
+    font-family: 'Stoke', serif;
+    color: white;
+    text-decoration:none;
+    font-weight: 800;
+}
+
+/* Sections */
+
+.tile {
+    display: block;
+    margin: 40px;
+    width: auto;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow:2px 5px 10px gray;
+    
+}
+h2 {
+    display: block;
+    margin: 20px;
+    font-family: 'Rye', cursive;
+    font-size: 50px;
+    
+}
+
+/* Colors */
+.color-panel {
+    display: inline-block;
+    margin: 40px 40px;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    font-family: 'Stoke', serif;
+    font-weight: 600;
+    position: relative;
+    justify-content: center;
+}
+
+.color-panel:hover {
+    font-size: larger;
+    transform:scale(1.2);
+    transition: 0.5s;
+}
+
+.green {
+    display: inline-block;
+    background-color: #0F3D1F;
+    color: white;
+}
+.colorpanel, .slate {
+    display: inline-block;
+    background-color: #2B5242;
+    color: white;
+}
+.colorpanel, .vanilla {
+    display: inline-block;
+    background-color: #DEC0AA;
+    color: white;
+}
+.colorpanel, .tan {
+    display: inline-block;
+    background-color: #D4916D;
+    color: white;
+}
+.colorpanel, .vermilion {
+    display: inline-block;
+    background-color: #D3713C;
+    color: white;
+}
+.colorpanel, .brown {
+    display: inline-block;
+    background-color: #A33407;
+    color: white;
+}
+
+.bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+/* Fonts */
+.font-panel {
+    display: inline-block;
+    margin: 30px 40px;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+}
+
+.regular:hover, .bold:hover, .italic:hover {
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.font-label {
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.regular {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.rye {
+    font-family: 'Rye', cursive;
+}
+
+.stoke {
+    font-family: 'Stoke', serif;
+}
+
+.edu {
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.genos {
+    font-family: 'Genos', sans-serif;
+}
+
+.labrada {
+    font-family: 'Labrada', serif;
+}
+
+/* Text Styles */
+
+.text-panel {
+    display: block;
+    margin: 30px 40px;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+}
+
+ul {
+    font-weight: 400px;
+    font-size: 24px;
+    font-family: stoke, serif;
+
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 75px;
+    font-family: Rye, cursive;
+    margin: auto;
+}
+
+.subheading {
+    font-weight: 500;
+    font-size: 50px;
+    font-family: Rye, cursive;
+    margin: auto;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: stoke, serif;
+}
+
+/* Buttons */
+
+.button-panel {
+    display: flex;
+    margin: 40px;
+    width: auto;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+}
+
+.skeumorphic li {
+    display: inline;
+    padding: 40px;
+}
+
+.skeumorphic li a {
+    font-family: 'Stoke', serif;
+    color: white;
+    text-decoration:none;
+    font-weight: 800;
+}
+
+.flatbutton {
+    display: inline;
+    margin: 40px;
+    width: auto;
+    height: 60px;
+    background-color: #D3713C;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.flat li {
+    display: inline;
+    padding: 40px;
+}
+
+.flat li a {
+    font-family: 'Stoke', serif;
+    color: white;
+    text-decoration:none;
+    font-weight: 800;
+}
+
